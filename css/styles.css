@@ -1,18 +1,18 @@
 /*-----------MAIN ROOT-------*/
 :root {
-    --main-background-color: #FFFFFF;
-    --secondary-background-color: #F4F4FD;
-    /*----third-background-color: #F5F4FA;--*/
-    --hero-title-color: #FFFFFF;
-    --main-title-color: #2E2F42;
-    --main-text-color: #434455;
-    --primary-text-color: #2E2F42;
-    --accent-text-color: #404BBF;
-    --pasive-button-color: #4D5AE5;
-    --active-button-color: #404BBF;
-    --button-text-color: #FFFFFF; 
-    --logo-web-text-color: #4D5AE5;
-    /*-----first-studio-text-color: #000000;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f4f4fd;
+  /*----third-background-color: #F5F4FA;--*/
+  --hero-title-color: #ffffff;
+  --main-title-color: #2e2f42;
+  --main-text-color: #434455;
+  --primary-text-color: #2e2f42;
+  --accent-text-color: #404bbf;
+  --pasive-button-color: #4d5ae5;
+  --active-button-color: #404bbf;
+  --button-text-color: #ffffff;
+  --logo-web-text-color: #4d5ae5;
+  /*-----first-studio-text-color: #000000;
     --second-studio-text-color: #FFFFFF;
     --adress-text-color: #FFFFFF;--*/
 }
@@ -30,4 +30,84 @@ body {
 
 .link {
   text-decoration: none;
-}s
+}
+
+/*------ Header ------*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 21px;
+  letter-spacing: 0.63px;
+  color: var(--logo-web-text-color);
+}
+
+.logo-header {
+  color: var(--primary-text-color);
+}
+
+.nav-item-link {
+  font-family: "Robot", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: inherit;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+}
+
+.nav-item-link:hover,
+.nav-item-link:active {
+  color: var(--active-button-color);
+}
+
+.link-tel,
+.link-mail {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: var(--main-text-color);
+}
+
+.link-tel:hover,
+.link-mail:hover,
+.link-tel:focus,
+.link-mail:focus {
+  color: var(--active-button-color);
+}
+
+/*----- Main ------*/
+
+.hero {
+  background-color: var(--primary-text-color);
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 1.2px;
+  color: var(--hero-title-color);
+}
+
+.hero-btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  text-align: center;
+  align-items: center;
+  width: 169px;
+  height: 56px;
+  border-radius: 4px;
+  color: var(--button-text-color);
+  background-color: var(--pasive-button-color);
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--active-button-color);
+}

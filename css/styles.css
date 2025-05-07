@@ -1,0 +1,33 @@
+/*-----------MAIN ROOT-------*/
+:root {
+    --main-background-color: #FFFFFF;
+    --secondary-background-color: #F4F4FD;
+    /*----third-background-color: #F5F4FA;--*/
+    --hero-title-color: #FFFFFF;
+    --main-title-color: #2E2F42;
+    --main-text-color: #434455;
+    --primary-text-color: #2E2F42;
+    --accent-text-color: #404BBF;
+    --pasive-button-color: #4D5AE5;
+    --active-button-color: #404BBF;
+    --button-text-color: #FFFFFF; 
+    --logo-web-text-color: #4D5AE5;
+    /*-----first-studio-text-color: #000000;
+    --second-studio-text-color: #FFFFFF;
+    --adress-text-color: #FFFFFF;--*/
+}
+
+/*-----------global styles------*/
+
+body {
+  font-family: "Robot", Helvetica, sans-serif;
+  color: var(--main-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}s
